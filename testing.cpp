@@ -27,6 +27,8 @@ int main() {
     double luas = hitungLuas(panjang, lebar);
     double keliling = hitungKeliling(panjang, lebar);
 
-    tampilkanHasil(luas, keliling);    
+    tampilkanHasil(luas, keliling); 
+    
+    cin.get(); // Tunggu input dari pengguna sebelum keluar
     return 0;
 }

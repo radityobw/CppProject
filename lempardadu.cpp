@@ -27,5 +27,6 @@ int main () {
             continue; // Kembali ke awal loop untuk meminta input lagi
         }
     }
+    cin.get(); // Tunggu input dari pengguna sebelum keluar
     return 0; // Kembalikan 0 untuk menandakan program selesai dengan sukses
 }
