@@ -7,16 +7,15 @@ int faktorial(int n);
 
 int main () {
 
-    int n, hasil;
+    int n;
 
-    cout << "Menghitung faktorial dari : ";
+    cout << "Menghitung faktorial dari bilangan bulat positif: ";
     cin >> n;
 
-    hasil = faktorial(n);
     if (n < 0) {
         cout << "Bilangan harus positif!" << endl;
     } else {
-        cout << "\nNilai faktorialnya adalah : " << hasil << endl;
+        cout << "Faktorial dari " << n << " adalah " << faktorial(n) << endl;
     }
 
     cin.get();
@@ -26,10 +25,8 @@ int main () {
 
 int faktorial(int n) {
     if (n <= 1) {
-        cout << n;
         return n;
     } else {
-        cout << n << "*";;
         return n * faktorial(n - 1);
     }
 }
