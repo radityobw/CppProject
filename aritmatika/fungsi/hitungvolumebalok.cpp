@@ -2,9 +2,14 @@
 
 using namespace std;
 
-// Function prototype
-// This function calculates the volume of a cuboid (balok) with default parameters of 1.
+// Fungsi Prototipe
+// Dengan default parameter 1
 double volumeBalok(double p = 1, double l = 1, double t = 1);
+
+// Fungsi overloading untuk menghitung volume kubus dengan 1 parameter
+double volumeBalok(double sisi) {
+    return sisi * sisi * sisi;
+} 
 
 int main(){
 
@@ -25,7 +30,7 @@ int main(){
     return 0;
 }
 
-
+//Fungsi untuk menghitung volume balok
 double volumeBalok(double p, double l, double t) {
     return p * l * t;
 }
