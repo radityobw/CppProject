@@ -19,5 +19,6 @@ int main() {
         cout << endl;
     }
 
+    cin.get(); // Tunggu input dari pengguna sebelum keluar
     return 0;
 }

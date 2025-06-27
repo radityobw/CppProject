@@ -11,4 +11,7 @@ int main() {
     } else {
         cout << "Angka " << input << " adalah bilangan ganjil.\n";
     }
+
+    cin.get(); // Tunggu input dari pengguna sebelum keluar
+    return 0;
 }

@@ -54,4 +54,6 @@ int main() {
             break;
     }
 
+    cin.get(); // Tunggu input dari pengguna sebelum keluar
+    return 0; // Keluar dari program dengan sukses
 }

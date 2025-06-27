@@ -1,33 +1,32 @@
 #include <iostream>
+
 using namespace std;
+
+double hitungLuas(double panjang, double lebar) {
+    return panjang * lebar;
+}
+
+double hitungKeliling(double panjang, double lebar) {
+    return 2 * (panjang + lebar);
+}
+
+void tampilkanHasil(double luas, double keliling) {
+    cout << "Luas: " << luas << endl;
+    cout << "Keliling: " << keliling << endl;
+}
 
 int main() {
 
-    int n;
+    double panjang, lebar;
 
-    cout << "Masukkan nilai n: ";
-    cin >> n;
+    cout << "Masukkan panjang: ";
+    cin >> panjang;
+    cout << "Masukkan lebar: ";
+    cin >> lebar;
 
-    // Segitiga Sama Kaki
-    for (int i = 1; i <= n; i++) {
-        for (int j = n; j > i; j--) {
-            cout << " ";
-        }
-        for (int k = 1; k <= (2*i-1); k++) {
-            cout << "*";
-        }
-        cout << endl;
-    }
-    // Segitiga Sama Kaki Terbalik
-    for (int i = 2; i <= n; i++) {
-        for (int j = 1; j < i; j++) {
-            cout << " ";
-        }
-        for (int k = n; k >= (2*i - n); k--) {
-            cout << "*";
-        }
-        cout << endl;
-    }
+    double luas = hitungLuas(panjang, lebar);
+    double keliling = hitungKeliling(panjang, lebar);
 
+    tampilkanHasil(luas, keliling);    
     return 0;
 }

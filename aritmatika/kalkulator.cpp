@@ -80,5 +80,7 @@ int main() {
             break;
     }
 
+    cin.get(); // Tunggu input dari pengguna sebelum keluar
+    cout << "Terima kasih telah menggunakan kalkulator ini!" << endl;
     return 0;
 }
