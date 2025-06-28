@@ -1,0 +1,12 @@
+Materi Dasar C++ Bagian 2:
+
+10. Operator Assignment (=)
+11. Increment dan Decrement
+-- Pre Increment (++i)
+-- Post Increment (i++)
+-- Pre Decrement (--i)
+-- Post Decrement (i--)
+12. While Loop
+13. Do While Loop
+14. For Loop
+15. Flow Control (Break dan continue)

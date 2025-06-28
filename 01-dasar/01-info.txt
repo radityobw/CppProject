@@ -1,0 +1,11 @@
+Materi C++ Dasar:
+
+1. Printing pada Console
+2. Deklarasi Variabel
+3. Cin dan Cout dari iostream
+4. Tipe Data
+5. Komparasi
+6. Operator Aritmatika
+7. Operator Logika
+8. If else
+9. Switch Case
