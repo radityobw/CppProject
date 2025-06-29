@@ -1,0 +1,23 @@
+Materi Dasar C++ Bagian 4
+
+{
+    Ada 3 Jenis Fungsi:
+    1. Fungsi dengan memasukkan Nilai
+    2. Fungsi dengan memasukkan Pointer
+    3. Fungsi dengan memasukkan Reference
+
+}
+
+
+24. Pointer (Dereferencing *i berarti mengambil nilai dari alamatnya)
+-- sintaks: int *p = &a (untuk mengisi pointer dengan alamat a)
+-- Tambahan: *p = nullptr (untuk mengosongkan pointer)
+-- Tambahan: (Dereferencing *i berarti mengambil nilai dari alamatnya)
+
+25. Reference 
+-- sintaks: int &b = a
+-- b mengikuti/mereferensi dari a, atau bisa dibilang
+-- b adalah alias dari a
+
+26. Fungsi dengan Pointer
+27. Fungsi dengan Reference
