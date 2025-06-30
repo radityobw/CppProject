@@ -1,0 +1,20 @@
+Materi C++ Dasar Bagian 5:
+
+28. Array
+-- sintaks: int namaArray[jumlahData]
+
+29. Standard Library (stdlib) Array
+>> dependencies: #include <array>
+-- sintaks: array<int, jumlahData> namaArray
+
+30. Looping Array
+-- sintaks: for (int i : namaArray) { }
+
+31. Multidimensi Array (builtin)
+-- sintaks: int namaArray[jumlahBaris][jumlahKolom] = { {1,2,3}, {4,5,6} };
+
+32. Multidimensi Array (stdlib)
+-- sintaks: array <array <int, jumlahKolom> , jumlahBaris> namaArray = { {1,2,3}, {4,5,6} };
+
+33. Sort Array (stdlib)
+34. Search Array (stdlib)
